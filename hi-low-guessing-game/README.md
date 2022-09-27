@@ -3,6 +3,9 @@
 This is the day 12 project in the 100 days of python coding course on Udemy by Dr. Angela Yu.
 
 The intended game is a series of console prints where the user is able to input guesses to identify a random number between 1 and 100. The app has an easy and hard mode, where easy gives the user 10 chances to guess and hard gives 5.
+
+## How to play.
+- run main.py and the game will prompt you further. Otherwise navigate to main.py and execute a run command.
 ## Number Guessing Game Objectives:
  - Include an ASCII art logo.
  - Allow the player to submit a guess for a number between 1 and 100.
