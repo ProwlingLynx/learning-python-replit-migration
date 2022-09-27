@@ -1,4 +1,6 @@
 from random import randint
+from os import system, name
+
 def generate_number():
     """Returns an int [1, 100]"""
     return randint(1, 100)
@@ -31,3 +33,10 @@ def create_game_object(is_hard):
         "guesses_remaining": guesses,
         "secret_number": generate_number()
     }
+
+def clear():
+    '''Call to clear terminal screen.'''
+    if name == "nt":
+        _ = system("cls")
+    else:
+        _ = system("clear")
